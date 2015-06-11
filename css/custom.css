@@ -1,7 +1,6 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
 }
 
 .navbar-inverse {
@@ -10,11 +9,21 @@ body {
 }
 
 ul.nav, .jumbotron h1  {
-  font-family:'Quicksand', sans-serif;
+  font-family:'Arvo', sans-serif;
 }
 
 ul.nav {
   font-size: 18px
+}
+
+footer {
+  background-color: #3f2c1f;
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+
+#pet-services {
+  background-color: #F5F0EB;
 }
 
 #try-us {
@@ -22,14 +31,17 @@ ul.nav {
   color: white;
 }
 
+#who {
+  padding-bottom: 60px;
+}
+
 .jumbotron {
   text-align: center;
   background-image: url('../images/dog_ball.jpg');
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position:center center;
-  /*background-attachment:fixed;*/
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 
@@ -37,15 +49,20 @@ ul.nav {
   margin-top: 0px;
   margin-bottom: 500px;
   color: white;
+  position: relative;
+  left: -250px;
 }
 
 .jumbotron p {
   margin-bottom: 30px;
   font-size: 26px;
-  font-weight: 100;
+  font-weight: 200;
   padding: 0 50px;
   text-align: right;
   color: white;
+  position: relative;
+  bottom: 275px;
+  left: 150px;
 }
 
 .btn-lg {
@@ -55,11 +72,13 @@ ul.nav {
 
 .homepage {
   text-align: center;
+  padding-bottom: 30px;
+  padding-top: 40px;
 }
 
-.homepage h2 {
+.homepage h1 {
   color: #6B8E23;
-  font-family:'Quicksand', sans-serif;
+  font-family:'Arvo', sans-serif;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -67,7 +86,7 @@ ul.nav {
 .homepage h3 {
   text-transform: uppercase;
   color: #6B8E23;
-  font-family:'Quicksand', sans-serif;
+  font-family:'Arvo', sans-serif;
   font-size: 26px;
 }
 
@@ -80,9 +99,15 @@ ul.nav {
   color: #6B8E23;
 }
 
+.homepage a:hover {
+  color: #6B8E23;
+  text-decoration: none;
+  opacity: .8;
+}
+
 .homepage hr {
   border-top: 1px solid #3f2c1f;
-  width: 160px;
+  width: 185px;
   margin-top: 15px;
 }
 
